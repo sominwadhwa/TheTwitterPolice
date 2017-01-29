@@ -1,0 +1,185 @@
+<html>
+  <head>
+    <title>Precog_TaskA_Somin</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
+  </head>
+  <body>
+    <table cellspacing='0'> 
+    <col width="70">
+    <tr>
+      <th style="font-size: 22px;",colspan="2">Frequency of Tweets</th>
+    </tr>
+
+    <tr>
+      <td><img src="{{url_for('static', filename='fig.png')}}", height=400, width = 800></td>
+    </tr>
+
+</table>
+<table cellspacing='0'> 
+    <col width="70">
+    <col width="130">
+    <tr>
+      <th style="font-size: 22px;",colspan="2">Delhi</th>
+    </tr>
+
+    <tr>
+      <th>Frequent Hashtags (10)</th>
+      <td><img src="{{url_for('static', filename='HashtagDelhi.png')}}", height=400, width = 800></td>
+    </tr>
+
+    <tr class="even">
+      <th>Sentiment Analysis</th>
+      <td><img src="{{url_for('static', filename='SA_Delhi.png')}}", height=400, width = 800></td>
+    </tr>
+
+    <tr>
+      <th>Time Series Analysis</th>
+      <td><img src="{{url_for('static', filename='TS_Delhi.png')}}", height=400, width = 800></td>
+    </tr>
+
+    <tr class="even">
+      <th>Word Cloud (Shape: Map of Delhi)</th>
+      <td><img src="{{url_for('static', filename='WC_Delhi.png')}}", height=400, width = 800></td>
+    </tr>
+
+    <tr>
+      <th>Engagements (Favs + RTs)</th>
+      <td><img src="{{url_for('static', filename='EngageDelhi.png')}}", height=400, width = 800></td>
+    </tr>
+
+</table>
+<table cellspacing='0'> 
+    <col width="70">
+    <col width="130">
+    <tr>
+      <th style="font-size: 22px;",colspan="2">Pune</th>
+    </tr>
+
+    <tr>
+      <th>Frequent Hashtags (10)</th>
+      <td><img src="{{url_for('static', filename='HashtagPune.png')}}", height=400, width = 800></td>
+    </tr>
+
+    <tr class="even">
+      <th>Sentiment Analysis</th>
+      <td><img src="{{url_for('static', filename='SA_Pune.png')}}", height=400, width = 800></td>
+    </tr>
+
+    <tr>
+      <th>Time Series</th>
+      <td><img src="{{url_for('static', filename='TS_Pune.png')}}", height=400, width = 800></td>
+    </tr>
+
+    <tr class="even">
+      <th>Word Cloud (Shape: Map of Pune)</th>
+      <td><img src="{{url_for('static', filename='WC_Pune.png')}}", height=400, width = 800></td>
+    </tr>
+
+    <tr>
+      <th>Engagements (Favs + RTs)</th>
+      <td><img src="{{url_for('static', filename='EngagePune.png')}}", height=400, width = 800></td>
+    </tr>
+
+</table>
+<table cellspacing='0'> 
+    <col width="70">
+    <col width="130">
+    <tr>
+      <th style="font-size: 22px;",colspan="2">Mumbai</th>
+    </tr>
+
+    <tr>
+      <th>Frequent Hashtags (10)</th>
+      <td><img src="{{url_for('static', filename='HashtagMumbai.png')}}", height=400, width = 800></td>
+    </tr>
+
+    <tr class="even">
+      <th>Sentiment Analysis</th>
+      <td><img src="{{url_for('static', filename='SA_Mumbai.png')}}", height=400, width = 800></td>
+    </tr>
+
+    <tr>
+      <th>Time Series</th>
+      <td><img src="{{url_for('static', filename='TS_Mumbai.png')}}", height=400, width = 800></td>
+    </tr>
+
+    <tr class="even">
+      <th>Word Cloud (Shape: Map of Mumbai)</th>
+      <td><img src="{{url_for('static', filename='WC_Mumbai.png')}}", height=400, width = 800></td>
+    </tr>
+
+    <tr>
+      <th>Engagements (Favs + RTs)</th>
+      <td><img src="{{url_for('static', filename='EngageMumbai.png')}}", height=400, width = 800></td>
+    </tr>
+
+</table>
+<table cellspacing='0'> 
+    <col width="70">
+    <col width="130">
+    <tr>
+      <th style="font-size: 22px;",colspan="2">West Bengal</th>
+    </tr>
+
+    <tr>
+      <th>Frequent Hashtags (10)</th>
+      <td><img src="{{url_for('static', filename='HashtagWB.png')}}", height=400, width = 800></td>
+    </tr>
+
+    <tr class="even">
+      <th>Sentiment Analysis</th>
+      <td><img src="{{url_for('static', filename='SA_WB.png')}}", height=400, width = 800></td>
+    </tr>
+
+    <tr>
+      <th>Time Series</th>
+      <td><img src="{{url_for('static', filename='TS_WB.png')}}", height=400, width = 800></td>
+    </tr>
+
+    <tr class="even">
+      <th>Word Cloud (Shape: Map of WB)</th>
+      <td><img src="{{url_for('static', filename='WC_WB.png')}}", height=400, width = 800></td>
+    </tr>
+
+    <tr>
+      <th>Engagements (Favs + RTs)</th>
+      <td><img src="{{url_for('static', filename='EngageWB.png')}}", height=400, width = 800></td>
+    </tr>
+
+</table>
+<table cellspacing='0'> 
+    <col width="70">
+    <col width="130">
+    <tr>
+      <th style="font-size: 22px;",colspan="2">Thane</th>
+    </tr>
+
+    <tr>
+      <th>Frequent Hashtags (10)</th>
+      <td><img src="{{url_for('static', filename='HashtagThane.png')}}", height=400, width = 800></td>
+    </tr>
+
+    <tr class="even">
+      <th>Sentiment Analysis</th>
+      <td><img src="{{url_for('static', filename='SA_Thane.png')}}", height=400, width = 800></td>
+    </tr>
+
+    <tr>
+      <th>Time Series</th>
+      <td><img src="{{url_for('static', filename='TS_Thane.png')}}", height=400, width = 800></td>
+    </tr>
+
+    <tr class="even">
+      <th>Word Cloud</th>
+      <td><img src="{{url_for('static', filename='WC_Thane.png')}}", height=400, width = 800></td>
+    </tr>
+
+    <tr>
+      <th>Engagements (Favs + RTs)</th>
+      <td><img src="{{url_for('static', filename='EngagePune.png')}}", height=400, width = 800></td>
+    </tr>
+
+</table>
+<font color=#D3D3D3><strong>Other Related Work (Exploratory Data Analysis): </strong><a href="https://github.com/sominwadhwa/Kaggle-Works">Github (Kaggle Solutions Repo)</a></font>
+</body>
+</html>
