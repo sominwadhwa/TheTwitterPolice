@@ -1,4 +1,4 @@
-Web App hosted here: https://precog-task.herokuapp.com
+Web App hosted here: https://thetwitterpolice.herokuapp.com/
 
 # About the project     
 1. Collect a minimum of 300 tweets (excluding retweets/replies) from 5 verified police accounts (India).
@@ -11,7 +11,7 @@ Web App hosted here: https://precog-task.herokuapp.com
 1. Data Collection: `Selenium` & `BeautifulSoup` were used to scrape the web pages of the required twitter accounts.  
 2. Clean Up & Storage: Collected data was cleaned & stored in `MongoDB` collections hosted on [mLab](https://mlab.com). It can be accessed at `mongodb://tweets_database:2222@ds145868.mlab.com:45868/tweets_database`
 3. Analysis: Analysis was purely done in iPython Notebook and I'd like to request you to please check them out `(Analysis.ipynb)` once since they provide a very conducive environment for data analysis.
-4. Hosting: Used simple flask based web app to display the results, deployed on heroku. [Click Here](https://precog-task.herokuapp.com)
+4. Hosting: Used simple flask based web app to display the results, deployed on heroku. [Click Here](https://thetwitterpolice.herokuapp.com/)
 
 ## Primary areas of focus
 1. Simplicity of results with maximum information gain.
