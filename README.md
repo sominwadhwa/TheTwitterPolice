@@ -66,13 +66,3 @@ Further work:
 1. Structure the code in a better way(there might be some redundancy here & there).
 2. Apart from the specific task at hand, I'd like to explore the possibility of using machine learning based techniques like cluster analysis along some supervised models to identify specific patterns of factors influencing engagements etc. (Just a thought) 
 3. Make the solution more dynamic in nature in terms of deployment.
-
-# References
-1. A lot of jolly good folks at [Stack Overflow](http://stackoverflow.com)
-2. [Flask Documentation](http://flask.pocoo.org/docs/0.12/)
-3. http://stackoverflow.com/questions/tagged/selenium
-4. http://stackoverflow.com/questions/4736/learning-regular-expressions
-5. https://mlab.com
-6. http://amueller.github.io/word_cloud/
-7. https://pythonspot.com/matplotlib-pie-chart/
-8. https://textblob.readthedocs.io
