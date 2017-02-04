@@ -33,8 +33,6 @@ Web App hosted here: https://precog-task.herokuapp.com
 5. **Time Series**: Time series is important (I feel so) when we want to study the activity of such a law enforcement social handle under different instances of time. Therefore, I think it was important to include it in the statistical analysis part.
 6. **Word Cloud**: Word clouds have been long used to represent frequently occuring words. Additionally to that, the wordclouds generated in this analysis mask the image of the state/city's MAP itself. (Except- Thane, where I could not find a decent png map image). 
 
-I would request you to please checkout the IPython Notebook since it provides ease of reading the code and it can be executed there & then module by module (please execute the relevant 'initial' modules before proceeding on to the analytical plots)
-
 ### Directory/Files Description
 1. `app.py` : For Flask deployment. 
 2. `Analysis.py` : Analysis of the collected data.
