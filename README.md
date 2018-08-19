@@ -1,5 +1,3 @@
-Web App hosted here: https://thetwitterpolice.herokuapp.com/
-
 # About the project     
 1. Collect a minimum of 300 tweets (excluding retweets/replies) from 5 verified police accounts (India).
 2. Store the collected data in MongoDB Collections.
